@@ -6,6 +6,5 @@ metadata:
 data:
   SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/taskdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
   SPRING_DATASOURCE_USERNAME: root
-  SPRING_DATASOURCE_PASSWORD: root123
   SPRING_JPA_HIBERNATE_DDL_AUTO: create
   SPRING_JPA_SHOW_SQL: "true"
