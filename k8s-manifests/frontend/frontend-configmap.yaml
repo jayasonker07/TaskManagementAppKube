@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: taskapp
+data:
+  BACKEND_API_URL: "http://192.168.49.2:30080/api/tasks"
